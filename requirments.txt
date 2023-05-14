@@ -1,0 +1,5 @@
+flake8
+pdoc
+pylint
+# unit test 
+coverage
