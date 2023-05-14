@@ -1,5 +1,4 @@
 create table pomodoro (
-memberID INT NOT NULL,
 first_name varchar(255) NOT NULL,
 last_name varchar(255) NOT NULL,
 department varchar(255) NOT NULL,
