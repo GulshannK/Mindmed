@@ -3980,8 +3980,8 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
      <widget class="QPushButton" name="b520_2">
       <property name="geometry">
        <rect>
-        <x>720</x>
-        <y>690</y>
+        <x>930</x>
+        <y>190</y>
         <width>111</width>
         <height>31</height>
        </rect>
@@ -3992,7 +3992,10 @@ color: rgb(255, 255, 255);
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
       </property>
       <property name="text">
-       <string>Add to DB</string>
+       <string>Submit</string>
+      </property>
+      <property name="shortcut">
+       <string>Return</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_17">
@@ -4164,34 +4167,6 @@ color: rgb(0, 0, 112);
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="l524_3">
-      <property name="geometry">
-       <rect>
-        <x>500</x>
-        <y>50</y>
-        <width>151</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>MS Shell Dlg 2</family>
-        <pointsize>9</pointsize>
-        <weight>9</weight>
-        <italic>false</italic>
-        <bold>false</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 75 9pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(208, 211, 255);
-color: rgb(0, 0, 112);
-</string>
-      </property>
-      <property name="text">
-       <string>Number of session    </string>
-      </property>
-     </widget>
      <widget class="QLabel" name="l523_3">
       <property name="geometry">
        <rect>
@@ -4218,20 +4193,6 @@ color: rgb(0, 0, 112);
       </property>
       <property name="text">
        <string>Department</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="tb904">
-      <property name="geometry">
-       <rect>
-        <x>500</x>
-        <y>90</y>
-        <width>151</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);
-font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
       </property>
      </widget>
      <widget class="QLabel" name="l521_4">
@@ -4297,7 +4258,7 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
      <widget class="QLineEdit" name="tb901">
       <property name="geometry">
        <rect>
-        <x>20</x>
+        <x>10</x>
         <y>90</y>
         <width>151</width>
         <height>31</height>
@@ -4598,6 +4559,24 @@ color: rgb(0, 0, 0);
 </string>
       </property>
      </widget>
+     <widget class="QPushButton" name="b510_4">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>130</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_9">
      <attribute name="title">
@@ -4612,7 +4591,7 @@ color: rgb(0, 0, 0);
      <x>0</x>
      <y>0</y>
      <width>1294</width>
-     <height>26</height>
+     <height>25</height>
     </rect>
    </property>
    <property name="styleSheet">
