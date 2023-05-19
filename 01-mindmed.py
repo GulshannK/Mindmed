@@ -9,7 +9,7 @@ import datetime
 
 ui, _ = loadUiType('mindmed.ui')
 
-PW ="Isam2023"
+PW =""
 
 class MainApp(QMainWindow, ui):
     def __init__(self):
